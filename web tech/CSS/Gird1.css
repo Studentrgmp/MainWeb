@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid-cont{
+    width: 60vw;
+    height: 60vh;
+    display: grid;
+    gap: 2px 5x;
+    background-color: yellow;
+    grid-template-areas: "hdr hdr hdr hdr"
+                         "asd asd stc stc"
+                         "asd asd stc stc"
+                         "art art art art"   
+                         "ftr ftr ftr ftr"
+                          "ftr ftr ftr ftr"; 
+
+}
+.grid-items{
+    background-color: blue;
+    border: 1px solid yellow;
+} 
+#grid-items1{
+    grid-area: hdr;
+}
+#grid-items2{
+    grid-area: asd;
+}
+#grid-items3{
+    grid-area: stc;
+}
+#grid-items4{
+    grid-area: art;
+}
+#grid-items5{
+    grid-area:ftr;
+}

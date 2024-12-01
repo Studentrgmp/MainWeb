@@ -1,0 +1,259 @@
+*{
+ margin: 0;   
+}
+header{
+    position: sticky;
+    top:0;
+}
+nav{
+    width: 100%;
+    height: 75PX;
+    background-image:linear-gradient(pink,white);
+}
+#main1{
+    margin-top: -45px;
+    background-image: linear-gradient(#C6EA8D , #FE90AF);
+    position: relative;
+}
+#More{
+    text-shadow: 5px  4px 10px black;
+    margin-top: 55px;
+    margin-left: 100px;
+    font-size: 45px;
+}
+h1{
+    margin-left: 15px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: -25px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+#but{
+    border-radius: 15PX;
+    background-image: linear-gradient(#EA8D8D , #A890FE);
+    margin-left: 40PX;
+    font-size: 20PX;
+    width: 75px;
+}
+#but1{
+    border-radius: 15PX;
+    background-image: linear-gradient(#EA8D8D , #A890FE);
+    margin-left: 40PX;
+    font-size: 20PX;
+    width: 300px;
+}
+#but:hover{
+    cursor: pointer;
+    color: red;
+    background-image: linear-gradient(#A9F1DF , #FFBBBB);
+}
+#but1:hover{
+    cursor: pointer;
+    color: red;
+    background-image: linear-gradient(#A9F1DF , #FFBBBB);
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.l{
+    display: flex;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 200px;
+    transition: all 0s linear 0.2ms;
+}
+.l:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#5614b0,#dbd65c);
+    color: white;
+    border: 2px double yellow;
+    font-style: italic;
+    box-shadow: 5px 5px 4px black;
+}
+.cd{
+    margin-left: 25px;
+    font-size: 38px;
+}
+.p1{
+    margin-top: 50px;
+    margin-left: -250px;
+    width: 180px;
+}
+.r{
+    display: flex;
+    width: 500px;
+    margin-top: -190px;
+    margin-left: 800px;
+    transition: all 0s linear 0.2ms;
+}
+.r:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#5614b0,#dbd65c);
+    color: white;
+    border: 2px double red;
+    font-style: italic;
+    box-shadow: 5px 5px 4px black;
+}
+.gl{
+    margin-left: 25px;
+    font-size: 38px;
+}
+.p2{
+    margin-top: 50px;
+    margin-left: -150px;
+    width: 180px;
+}
+.p3{
+    margin-top: 45px;
+    width: 180px;
+    margin-left: -200px;
+}
+#p4{
+    margin-top: 45px;
+    width: 180px;
+    margin-left: -150px;
+}
+#main2{
+    width: 100%;
+    height: 550px;
+    /* background-image: linear-gradient(to top left,pink,white,skyblue); */
+    background-image: repeating-linear-gradient(to top left,pink 0%,pink 25%,white,skyblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+#web{
+    margin-top: 75PX;
+    font-size: 70PX;
+    font-weight: bold;
+    color: red;
+    word-spacing: 15PX;
+}
+#don{
+    font-size: 22PX;
+    margin-top: 20PX;
+    margin-left: 175PX;
+}
+#b1,#b2{
+    background-color: red;
+    border-radius: 95px;
+    width: 250px;
+    height: 55px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+#b2{
+    margin-left: 45px;
+}
+#b1:hover{
+    cursor: pointer;
+    color: red;
+    background-image: linear-gradient(#A9F1DF , #FFBBBB);
+}
+#b2:hover{
+    cursor: pointer;
+    color: red;
+    background-image: linear-gradient(#A9F1DF , #FFBBBB);
+}
+button{
+    box-shadow: 2px 4px 2px black;
+}
+#main3{
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    background-image: linear-gradient(#FFECD2 , #FCB69F);
+}
+.expert{
+    align-items: center;
+    margin-left: 35px;
+}
+#say{
+    text-shadow: 5px  4px 10px black;
+    padding-top: 55px;
+    margin-left: 600px;
+    font-size: 45px;
+}
+.first{
+    width: 250px;
+    margin-top: 25px;
+    transition: all 0 linear 0.2ms; 
+}
+.first:hover{
+    box-shadow: 4px 4px 3px black;
+    cursor: pointer;
+    pointer-events: fill;
+    border: 2px solid black;
+    background-image: linear-gradient(#c02425 ,#f0cb35);
+    transition: transform 1s linear 0ms;
+}
+.pa{
+    padding: 15px;
+    text-indent: 35px;
+    text-align: justify;
+}
+.N{
+    margin: 25px 0 0 55px;
+}
+#I,#G,#g,#a,#A,#b,#B,#i{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    margin: 20px 0 0 65px;
+    box-shadow: 5px 4px 3px black;
+}
+#I{
+    background-image: url(../html/car1);
+}
+#i{
+    background-image: url(../html/car);
+}
+#g{
+    background-image: url(../html/cr7);
+}
+#G{
+    background-image: url(../html/cr71);
+}
+#a{
+    background-image: url(../html/pro.jpeg);
+}
+#A{
+    background-image: url(../html/vk);
+}
+#b{
+    background-image: url(../html/mount);
+}
+#B{
+    background-image: url(../html/neymar.jpeg);
+}
+#Cr7,#Car,#CR7,#VK{
+    margin-left: 75px;
+}

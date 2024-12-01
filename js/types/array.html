@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     let a=[1,"hello",null,undefined,10n,true,{},function(){}]
+    //     console.log(a);
+    //     console.log(Array.isArray(a));
+    //     let obj={
+    //     }
+    //     console.log(Array.isArray(obj));
+        
+    //     //Array methods
+
+    //     let myarray=[100,300,"good",500];
+    //     console.log(myarray);
+
+    //     //1.Push
+    //     //push method will add the value from the behind of an array for push we should pass a value in parameter
+
+    //     console.log(myarray.push(500,400));
+    //     console.log(myarray);
+
+
+    //     //2.pop
+    //     // pop method will remove a value from behind of an array it won't accept any parameter
+
+    //     console.log(myarray.pop());
+    //     console.log(myarray);
+
+    //     //3.shift
+    //     // shift methods in array will remmove the values from starting of an array 
+    //     //it won't accept any parameter.
+
+    //     console.log(myarray.shift());
+    //     console.log(myarray);
+
+    //     //4.unshift
+    //     //unshift method will add the value from the behind of an array for unshift we should pass a value in parameter.
+
+    //     console.log(myarray.unshift(500,600));
+    //     console.log(myarray);
+
+    //     // splice
+    //     // it will take 2/3 parameters.
+    //     // when it is two-first one indicates the index ,second on indicates how many values are deleted from the that index
+    //     // when it is three-first one indicates the index,second one indicates how many values are deletede from that index ,third one how many values should add from removed values.
+
+    //     let b=[1,3,5,7]
+    //     console.log(b.flat());
+    //     console.log(b.splice(0,2,"hello"));
+
+
+
+    //    let V= function (){
+    //         let a=10+20
+    //     }
+    //     console.log(typeof V);
+
+
+        let mysl=[111,222,333,444,555]
+        // mysl.length=2;
+        console.log(mysl);
+        console.log(mysl.slice(0,4));
+        console.log(mysl);
+        console.log(mysl[50]=1000);
+        console.log(mysl);
+        
+        console.log({}=={});
+        console.log(mysl[46]=5632);
+        console.log(mysl.reverse());
+        console.log(mysl);
+        console.log(3>5<2);
+        console.log(mysl.includes(400));
+
+
+        //for - of
+        
+        let offor=[1,2,3]
+        for(let value of offor){
+            console.log(value);
+        }
+
+        // for-in
+        for(let index in offor){
+            console.log(index);
+        }
+
+
+        // for each
+        let each=offor.forEach((index,value)=>{
+            console.log(index,value);
+            console.log(`index ${index}, values ${value} `);
+        })      
+        
+        //sort
+
+        let mysort=[4,1,11,44,2,600,2,22]
+        console.log(mysort);
+
+        
+        let sort=mysort.sort((a,b)=>{
+            return a-b
+        })
+
+        console.log(sort);
+
+        let sort1=mysort.sort((a,b)=>{
+            return b-a
+        })
+        console.log(sort1);
+        console.log(sort.toString());
+        console.log(sort.join(","));
+        console.log(sort.concat(mysl,offor));
+        
+        let nested=[1,2,4,[4,5485,895,6532],[525,6320,41065,520]]
+        console.log(nested);
+        console.log(nested.flat());
+
+        // map,filter,reduce
+        
+        let cloth=[550,1000,3500,400,200]
+        let map=cloth.map((value)=>{
+            return value*1.18
+        })
+        console.log(map);
+
+        let filter=cloth.filter((x)=>{
+            return x>400
+        })
+        console.log(filter);
+        
+        let reduce=cloth.reduce((acc,value)=>{
+            return acc+value;
+        })
+        console.log(reduce);
+        
+        let destruct=[11,22,33,"hubli"]        
+        console.log(...destruct);
+        
+        let [aa,bb,cc,dd]=destruct
+        console.log(aa+100);
+        console.log(dd);
+        cc=cc+100
+        console.log(cc);
+        
+        let obje={
+            shedu:"darshan",
+            role:"actor"
+        }
+        let {zz,yy}=obje
+        console.log(zz);
+        console.log(yy)                        
+    </script>
+</body>

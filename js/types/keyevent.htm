@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="">
+    <input type="text" id="in">
+
+    <script>
+        let im=document.querySelector("input")
+        im.addEventListener("keydown",()=>{
+            console.log("keydown");
+        })
+        let rdm=document.getElementById("in")
+        rdm.addEventListener('keyup',()=>{
+            let col=(Math.ceil(Math.random()*10000)).toString(16);
+            console.log(col);
+            document.body.style.background=`#${col}`
+            
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: white;
+}
+#home{
+    width: 1200px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+#main1{
+    width: 100%;
+    height: 400px;
+    background-image:url("https://www.phonepe.com/webstatic/7412/static/6eba1bff4e20e9bc2aa276c2fe94659f/b912d/hp-banner-aa.webp") ;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#tag{
+    margin-left: -100px;
+}
+#tag1{
+    width: 300px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+#tag2{
+    width: 300px;
+    color: #371f7b;
+    font-size: 1.75rem;
+}
+#Know{
+    width: 150px;
+    height: 35px;
+    background-color: #6739b7;
+    border-radius: 15px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1rem;
+}
+#main2{
+    margin-top: 25px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#ins{
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url("file:///C:/Users/SRI%20BALAJI/Desktop/Web/web%20tech/assessment/download.svg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+#ins{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    transition: all 0s linear 0s;
+}
+#ins:hover,#inv:hover,#lending:hover{
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 10px 15px 5px whitesmoke;
+    border: none;
+}
+#inv{
+    display: flex;
+    width:350px;
+    height: 350px;
+    align-items: flex-end;
+    background-image: url("file:///C:/Users/SRI%20BALAJI/Desktop/web/web%20tech/assessment/inves.svg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+#lending{
+    display: flex;
+    width:350px;
+    height: 350px;
+    align-items: flex-end;
+    background-image: url("https://www.phonepe.com/webstatic/7621/static/credit-hp-card-e94cb11bd212e8ffa2c99f5a303c269a.svg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+#main3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Fast{
+    font-size: 45px;
+    color: #361374;
+}
+h2{
+    color:#323232;
+}
+.pay{
+    color: #232028;
+    font-size: 20px;
+    width: 600px;
+    padding-bottom: 25px;
+    border-bottom: 0.1px solid black;
+}
+#img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Payments{
+    margin-left: 150px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+    text-align-last: center;
+}
+h3{
+    color: #6739b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main5{
+    margin-top: 55px;
+    margin-left: 25px;
+    animation-name: box;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes box {
+    0%{
+        transform: translateX(-25%);
+    }
+    25%{
+        transform: translateX(25%);
+    }
+    50%{
+        transform: translateX(50%);
+    }
+    75%{
+        transform: translateX(75%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    list-style: none;
+    line-height: 22px;
+    background-color: whitesmoke;
+}
+#NOW{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 35px;
+    font-weight: bold;
+}

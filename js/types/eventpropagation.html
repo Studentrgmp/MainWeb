@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gp{
+            width: 500px;
+            height: 500px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p{
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #c{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- div#gp>div#p>div#c -->
+
+    <div id="gp">
+        <div id="p">
+            <div id="c"></div>
+        </div>
+    </div>
+
+
+    <script>
+        let gp=document.getElementById('gp')
+        let p=document.getElementById('p')
+        let c=document.getElementById('c')
+
+
+        // gp.addEventListener('click',(e)=>{
+        //     console.log(e);
+        // })
+
+
+        gp.addEventListener('click',(e)=>{
+            console.log("gp capture");
+        })
+        
+        gp.addEventListener('clcik',(e)=>{
+            console.log("gp buddle");
+        })
+
+        // p.addEventListener('click',(e)=>{
+        //     console.log("p capture");
+        // })
+        
+        // p.addEventListener('clcik',(e)=>{
+        //     console.log("p buddle");
+        // })
+        
+        // c.addEventListener('click',(e)=>{
+        //     console.log("c capture");
+        // })
+        
+        // c.addEventListener('clcik',(e)=>{
+        //     console.log("c buddle");
+        // })
+
+        // document.addEventListener('click',(e)=>{
+        //     console.log("document capture");
+            
+        // })
+
+        // document.addEventListener('click',(e)=>{
+        //     console.log("document buulded");
+            
+        // })
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button>Submit</button>
+    <button id="reset">reset</button>
+    <button onclick="test()">Click on me</button>
+    <button class="btn3">SUBMIT</button>
+
+    <div id="hello">
+
+    </div>
+
+
+
+
+    <script>
+        function test(){
+            document.body.style.background="yellow"
+        }
+        let bt1=document.querySelector("button")
+        bt1.onclick=()=>{
+            document.body.style.background="blue"
+        }
+
+        let bt2=document.querySelector("#reset")
+        console.log(bt2);
+        bt2.addEventListener('click',function()
+        {
+            document.body.style.background="red"
+        })
+        
+
+        // addEventListener is an method which takes 2 parameters in that one is a event another  
+        // addEventListener always triggers an event when the functions calls on the webpage
+        let btn3=document.querySelector(".btn3");
+        btn3.addEventListener('click',()=>
+    {
+        let div=document.getElementById("hello");
+        div.innerHTML="hello world"
+        div.style.color="red"
+        div.style.fontSize="100px"
+        div.style.fontWeight="bolder"
+        div.style.marginTop="25px"
+        div.style.marginLeft="255px"
+    })
+
+    </script>
+</body>
+</html>

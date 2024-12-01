@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    width: 750px;
+    height: 1050px;
+    margin-left: 150px;
+    margin-top: 45px;
+    background-color: whitesmoke;
+}
+#main{
+    width: 750px;
+    height: 325px;
+    position: relative;
+    background-color: aqua;
+    border: 2px solid rebeccapurple;
+}
+#img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#img2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

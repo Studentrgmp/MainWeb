@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main1{
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "hdr ftr"
+                          "hd1 ftr1";
+}
+#row1{
+    grid-area: hdr;
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+}
+#img{
+    width: 800px;
+    background-image: url("../html/car");
+    background-repeat: no-repeat;
+    background-size: 400px 350px;
+}
+#pal{
+    padding: 25px;
+    line-height: 0.7rm;
+}
+#row2{
+    grid-area: ftr;
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+}
+#img2{
+    width: 500px;
+    background-image: url("../html/car1");
+    background-repeat: no-repeat;
+    background-size: 200px 350px;
+}
+#par{
+    padding: 25px;
+    line-height: 0.7rm;
+}
+#row3{
+    grid-area: hd1;
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+}
+#img3{
+    background-image: url("../html/cr7");
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: 150px 250px;
+}
+#par2{
+    padding: 25px;
+}
+#row4{
+    grid-area: ftr1;
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+}
+#img4{
+    width: 500px;
+    background-image: url("../html/cr71");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+#par2{
+    padding: 25px;
+}
+h1{
+    padding-top: 5px;
+}
+p{
+    padding-top: 5px    ;
+}

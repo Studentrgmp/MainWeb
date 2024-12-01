@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid-cont{
+    background-color: aqua;
+    border-radius: 25px;
+    width: 100vh;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    gap: 5px;
+}
+.grid-items{
+    background-color: yellow;
+    border: 2px solid aqua;
+}
+#grid-items1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#grid-items2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#grid-items3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#grid-items4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#grid-items5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#grid-items6{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#img1{
+    width: 170px;
+    height: 100px;
+    background-image: url("../html/car");
+    background-repeat: no-repeat;
+    background-size: 170px 100px;
+}
+#img2{
+    width: 170px;
+    height: 100px;
+    background-image: url("../html/car1");
+    background-repeat: no-repeat;
+    background-size: 170px 100px;
+}
+#img3{
+    width: 170px;
+    height: 100px;
+    background-image: url("../html/cr7");
+    background-repeat: no-repeat;
+    background-size: 170px 100px;
+}
+#img4{
+    width: 170px;
+    height: 100px;
+    background-image: url("../html/cr71");
+    background-repeat: no-repeat;
+    background-size: 170px 100px;
+}

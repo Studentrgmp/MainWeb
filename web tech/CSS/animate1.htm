@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        h1{
+            position: relative;
+            text-transform: uppercase;
+            font-size: 50px;
+            -webkit-box-reflect: below 1px linear-gradient(transparent,red);
+            animation: text 5s linear infinite;
+            line-height: 0.7em;
+        }
+        @keyframes text {
+            /* 0%,3%,5%,8%,10%,15%,17%,18%,20%,23%,25%,27%,30%,45%,55%,60%,65%,68%,70%,75%,79%,83%,85%,89%,91%,95%,99%{
+                color: black;
+                text-shadow: 0 0 0px black;
+            }
+            2%,9%,13%,19%,22%,26%,29%,33%,35%,39%,40%,44%,49%,50%,52%,57%,61%,63%,67%,69%,73%,77%,80%,87%,90%,97%,100%{
+                color: white;
+                text-shadow: 0 0 2px red,
+                             0 0 4px yellow,
+                             0 0 6px hotpink,
+                             0 0 8px goldenrod,
+                             0 0 10px silver;
+            }   */
+                      
+            0%,5%,10%,15%,20%,25%,30%,35%,40%,45%,50%,55%,60%,65%,70%,75%,80%,85%,90%,95%,99%{
+                color: black;
+                text-shadow: 0 0 0px black;       
+            }
+            3%,7%,13%,17%,22%,27%,33%,37%,43%,47%,53%,57%,63%,67%,73%,77%,83%,87%,93%,97%,100%{
+                color: white;
+                text-shadow: 0 0 2px red,
+                             0 0 4px yellow,
+                             0 0 6px hotpink,
+                             0 0 8px goldenrod,
+                             0 0 10px silver;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Tec</h1>
+</body>
+</html>

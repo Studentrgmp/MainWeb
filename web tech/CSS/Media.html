@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Festival{
+            background-color: black;
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #Gan{
+            width: 100%;
+            height: 100px;
+            background-color: aqua;
+        }
+        #Gro{
+            width: 100%;
+            height: 100px;
+            background-color: fuchsia;
+        }
+        #lix{
+            width: 100%;
+            height: 100px;
+            background-color: red;
+        }
+        p{
+            font-size: 120px;
+        }
+        /* @media screen and (min-width:300px) and (max-width:600px) {
+            #Festival{
+                background-color: blue;
+            }
+        } */
+
+        /* alternate options */
+        /* @media screen and (300px<=width<=600px) {
+            #Festival{
+                background-color:red;
+            }
+        } */
+
+         /* alternate options */
+         
+        /* @media screen and (max-width:600px) {
+            #Festival{
+                background-color: yellow;
+                flex-direction: column;
+            }
+        } */
+        @media screen and (orientation:portrait) {
+            #Festival{
+                background-color: yellow;
+                    flex-direction: column;
+            }
+        }
+        @media screen and (orientation:landscape) {
+            #Festival{
+                background-color: blue;
+                flex-direction: column;
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- mobil-424
+        tab-727
+        porital-1024
+        desktop-2280
+     -->
+    <div id="Festival">
+        <div id="Gan">
+            <p>Hello</p>
+        </div>
+        <div id="Gro"></div>
+        <div id="lix"></div>
+    </div>
+</body>
+</html>

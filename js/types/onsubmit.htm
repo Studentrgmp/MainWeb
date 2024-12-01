@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+    <label for="">un</label>
+    <input type="text" name="" id="user">
+    <br>
+    <label for="">pass</label>
+    <input type="password" name="" id="pass">
+    <br>
+    <button>Submit</button>
+    </form>
+    <div>
+
+    </div>
+
+    <h1>first</h1>
+
+    <div id="conat">
+        <h1>second</h1>
+            <section>i am in middle</section>
+        <h1>third</h1>
+    </div>
+
+
+
+    <script>
+        let form=document.querySelector("form")
+        form.addEventListener("submit",(e)=>{
+            let user=document.getElementById("user").value;
+            let pass=document.getElementById("pass").value;    
+            console.log(user,pass);
+            e.preventDefault()
+        })
+
+        let x=document.querySelector("section")
+        console.log(x.previousElementSibling);
+        console.log(x.nextElementSibling);
+
+        
+        let a=document.querySelector("#conat")
+        let b=a.querySelectorAll("h1")
+        console.log(b);
+        console.log(a.firstElementChild); 
+        console.log(a.lastElementChild);
+        
+        
+        // let a=document.querySelector("button")
+        // a.addEventListener("click",()=>{
+        //     let user=document.getElementById("user").value;
+        //     let pass=document.getElementById("pass").value;
+        //     let div=document.querySelector("div");
+        //     div.innerHTML=`${user}  ${pass}`;
+        //     div.style.color="yellow"
+        //     document.body.style.background="blue"
+        //     div.style.fontSize="50px"
+        // })
+
+
+
+
+    </script>
+</body>
+</html>

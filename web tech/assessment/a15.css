@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: aquamarine;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+#main1{
+    flex-wrap: wrap;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+#home{
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+p{
+    width: 550px;
+    /* flex-wrap: wrap; */
+}
+#main2{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+button{
+    flex-grow: 2;
+    align-self: center;
+    /* flex-wrap: wrap; */
+}
+h1{
+    flex-grow: 0.5;
+}
+p{
+    flex-grow: 1;
+    /* flex-wrap: wrap; */
+}
+#h{
+    line-height: 1em;
+}
+#right{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page294/electrochip/assets/images/slider-img.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: 300px 300px;
+    flex-wrap: wrap;
+}
+button{
+    width: 155px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 25px;
+}

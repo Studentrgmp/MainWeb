@@ -1,0 +1,425 @@
+body{
+    background-image: linear-gradient(#141e30,#243b55);
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 25px;
+}
+button{
+    width: 175px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-left: 10px solid blue;
+    border-right: 10px solid blue;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-radius: 75px;
+    outline: 7px;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#game{
+    margin-left: 25px;
+    color: rgba(0,0, 175, 0.8);
+}
+.nav{
+    margin-left: 65px;
+    font-size:20px ;
+    font-weight: bold;
+    justify-content: space-around;
+    color: black;
+    text-decoration: none;
+}
+.nav:hover{
+    color: rgba(0, 0,175, 0.8);
+}
+#main1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+#h{
+    margin-top: -155px;
+    margin-left: 45px;
+}
+#h1{
+    margin-top:-25px;
+    color: blue;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    margin-top: -25px;
+    font-size: 45px;
+}
+#pagr{
+    margin-top: 100px;
+    margin-left: -500px;
+    width: 550px;
+    color: white;
+    font-size: 20px;
+}
+#img{
+    margin-left: 300px;
+}
+#button{
+    width: 100px;
+    padding:5px;
+    padding-left: 15px;
+    height: 20px;
+    margin-top: 300px;
+    margin-left: -1350px;
+}
+#arrow{
+    font-weight: bolder;
+}
+#arl{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 470px;
+    margin-left: -90px;
+    border-radius: 50%;
+}
+#arr{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -15px;
+    border-radius: 50%;
+}
+#arl:hover,#arr:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#main2{
+    background-color: white;
+    display: flex;
+}
+#about{
+    font-size: 70px;
+    margin-left: 195px;
+}
+#par1{
+    width: 750px;
+    margin-top: 155px;
+    margin-left: -555px;
+    font-size: 25px;
+}
+#b1{
+    width: 100px;
+    padding:5px;
+    padding-left: 15px;
+    height: 20px;
+    margin: 330px 105px 0px -200px;
+}
+#main3{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 900px;
+}
+#product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p1,#p2{
+    font-size: 45px;
+    font-weight: bold;
+}
+#p1{
+    color:black;
+}
+#p2{
+    margin-left: 15px;
+    color: blue;
+}
+#line{
+    margin-left: 285px;
+    width: 850px;
+    font-size: 20px;
+}
+#imgl{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#imgr{
+    margin-left: 800px;
+    margin-top: -250px;
+}
+#price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.price1{
+    color: blue;
+}
+#video{
+    color: black;
+    margin-top: -50px;
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+}
+#lorem{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.p{
+    width: 550px;
+}
+#b3{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+#main4{
+    position: relative;
+}
+#d3{
+    color: blue;
+    font-size: 55px;
+    margin-left: 85px;
+    margin-top: 55px;
+}
+#remote{
+    margin-top: -15px;
+    margin-left: 85px;
+    font-size: 25px;
+    color: white;
+}
+#co{
+    margin-top: -40px;
+    margin-left: 5px;
+}
+#lo{
+    width: 550px;
+    font-size: 19px;
+    margin-left: 85px;
+    margin-top: 55px;
+    color: white;
+}
+#b4{
+    margin-left: 90px;
+    margin-top: 55px;
+}
+#main6{
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+    position: relative;
+}
+#imgro{
+    position: absolute;
+    top: 0px;
+    right: 55px;
+}
+table{
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+#form{
+    padding-top: 55px;
+    padding-left: 25px;
+}
+input{
+    width: 550px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 0.5px solid black;
+    background-color:whitesmoke ;
+}
+textarea{
+    background-color: whitesmoke;
+    width: 550px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+#imgre{
+    position: absolute;
+    top: 15px;
+    right: 155px;
+}
+#last{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+#header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 25px;
+}
+#last1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#about1{
+    color: white;
+    width: 250px;
+    height: 100px;
+}
+#use{
+    color: white;
+    list-style: none;
+    margin-top: 15px;
+}
+#cont{
+    color: white;
+    width: 250px;
+    height: 100px;
+}
+#p3{
+    margin-left: 35px;
+}
+#email{
+    width: 150px;
+    height: 38px;
+    font-size:15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#SUBSCRIBE{
+    color: white;
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: blue;
+}
+#main5{
+    background-color: white;
+    width: 100%;
+    height: 550px;
+}
+#head{
+    font-size: 25px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#review{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#rew1{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#imgph{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 15px 55px;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-size: 100px 100px;
+    transition: all 2s linear 0s;
+    border-radius: 50%;
+}
+#rew2{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#imglo{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 60px;
+    background-image: url("../html/car");
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-size: 100px 100px;
+    transition: all 2s linear 0s;
+    border-radius: 50%;
+}
+#rew3{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#imgcr7{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 65px;
+    background-image: url("../html/cr7");
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-size: 100px 100px;
+    transition: all 2s linear 0s;
+    border-radius: 50%;
+}
+table{
+    input-security: auto;
+}
+.lor{
+    margin-top: 35px;
+    margin-left: 25px;
+    font-size: 18px;
+    width:175px ;
+}
+.Phoenix{
+    padding: 5px 0 0 55px;   
+}
+#lomo{
+    padding: 5px 0 0 85px;
+}
+#imgcr{
+    padding: 5px 0 0 90px ;
+}
+#rew1:hover,#rew2:hover,#rew3:hover{
+    cursor: pointer;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px black;
+    border: 3px solid red;
+}

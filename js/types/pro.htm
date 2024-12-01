@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let Promise1=new Promise((reslove,reject)=>{
+            let room=true
+            if(room){
+                reslove("yes room is cleaned")
+            }
+            else{
+                reject("no still dust is there")
+            }
+        })
+        console.log(Promise1);
+        Promise1.then((data)=>{console.log(data);
+        })
+        
+        let Promise2= new Promise((reslove,reject)=>{
+            let room=false
+            if(room){
+                reslove("yes room is cleaned")
+            }
+            else{
+                reject("no still dust is there")
+            }
+        })
+        console.log(Promise2);
+        Promise2.then((data)=>{console.log(data);
+        }).catch((err)=>{console.log(err);
+        })
+        
+        function Promise10(){
+            return new Promise(function(reslove,reject)
+        {
+            reslove("promise is resolved")
+        })
+        }
+        console.log(Promise10());
+        console.log(Promise10().then((data)=>{console.log(data);
+        }));
+
+        // Promise Method
+        // 1.all
+        // 2.any
+        // 3.race
+        // 4.allsetteled
+
+
+        //all
+        let happyDay=new Promise((reslove,reject)=>{
+            let isRoom=false;
+                if(isRoom){
+                    reslove("it is sloved")
+                }
+                else{
+                    reject("it not")
+                }
+        })
+
+        let happyDay1=new Promise((reslove,reject)=>{
+            let isRoom=false;
+                if(isRoom){
+                    reslove("Second it is sloved")
+                }
+                else{
+                    reject("Second it not")
+                }
+        })
+        let happyDay2=new Promise((reslove,reject)=>{
+            let isRoom=false;
+                if(isRoom){
+                    reslove("Third it is sloved")
+                }
+                else{
+                    reject("Third it not")
+                }
+        })
+
+        //any :- all Promise method willl return all resolved promises but in that any one is rejected it will return that first.
+
+        // Promise.all([happyDay,happyDay1,happyDay2]).then((data)=>{console.log(data);}).catch((err)=>{console.log(err);})
+
+        // Promise.all([happyDay,happyDay1,happyDay2]).then((data)=>{console.log(data);
+        // }).catch((err)=>{console.log(err);
+        // })
+
+        // any
+        // any promise method will return first resloved promises
+
+        // Promise.any([happyDay,happyDay1,happyDay2]).then((data)=>{console.log(data);
+        // }).catch((err)=>{console.log(err);
+        // })
+
+        // allSettled
+        // allSettled is the promise method which returns the each promises result where it is resolved or rejected
+
+        // Promise.allSettled([happyDay1,happyDay2,happyDay]).then((data)=>{console.log(data);
+        // }).catch((err)=>{console.log(err);
+        // })
+
+        //race
+        //race  
+
+        Promise.race([happyDay2,happyDay1,happyDay]).then((data)=>{console.log(data);
+        }).catch((err)=>{console.log(err);
+        })
+
+        
+    </script>
+</body>
+</html>

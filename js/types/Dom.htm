@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Document object model</h1>
+    <p>hello</p>
+    <button onclick="demo()">Submit</button>
+    <div id="demo">
+        Light On
+    </div>
+    <div id="Demo">
+        Lights On
+    </div>
+
+    <script>
+        let d=document;
+        console.log(d,typeof d);
+        console.log(document);
+        
+        console.log(d.head);
+        console.log(d.title="Dom");
+        console.log(d.URL);
+
+        function demo(){
+            document.body.style.background="yellow";
+        }
+        let myid=document.getElementById('demo');
+        console.log(myid);
+
+        myid.style.background="black"
+        myid.style.color="white"
+        myid.innerText="<h1>Lights off<h1>"
+        let MYid=document.getElementById("Demo")
+        console.log(MYid);
+        MYid.style.background="Yellow"
+        MYid.style.color="Blue"
+        MYid.innerHTML="<h1>Lights OFF<h1>"
+    </script>
+</body>
+</html>

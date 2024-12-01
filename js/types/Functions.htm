@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dmo" class="tst">elements</div>
+    <div id="dmo" class="tst">elements</div>
+
+    <input type="button" value="cilck">
+    <input type="text" name="" id="">
+
+    <aside id="demo">i am aside</aside>
+    <aside id="demo"> i am second</aside>
+
+    <script>
+        let yn=document.getElementsByClassName('tst');
+        console.log(yn);
+        yn[0].style.background="red";
+        yn[0].style.color="yellow"
+        yn[1].style.fontSize="50px"
+
+        let fr=document.getElementsByTagName('input');
+        console.log(fr);
+        fr[1].style.display="block"
+
+        let para=document.createElement('p');
+        console.log(para);
+
+        let crt=document.createElement("section");
+        console.log(crt);
+
+        crt.innerHTML="<h1> hello </h1>"
+        document.body.append(crt)
+
+        let art=document.createElement("article");
+        console.log(art);
+
+        para.innerText="Para";
+        art.innerHTML="article";
+        art.append(para);
+        document.body.append(art)
+        
+        // let table=document.createElement("table")
+        // console.log(table);
+        // let th=document.createElement("th")
+        // th.innerText="Heloo";
+        // table.append(th)
+        
+        // let one=document.querySelector(".hello")
+        // console.log(one);
+
+        let all=document.querySelectorAll("#demo")
+        console.log(all);
+        
+        
+    </script>
+</body>
+</html>

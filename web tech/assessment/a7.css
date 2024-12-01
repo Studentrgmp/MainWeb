@@ -1,0 +1,69 @@
+#main{
+    background-image: url("../html/cr71");
+    background-size: 1550px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+#co{
+    background-color:red;
+}
+#logo{
+    display: inline-flex;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+#nav{
+    display: inline-flex;
+    margin-left: 800px;
+    justify-content: space-between;
+}
+#p{
+    margin-top: 30px;
+    display: inline-flex;
+}
+#img{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#h{
+    display: inline-flex;
+    font-size: 40px;
+    margin-left: 50px;
+}
+#pa{
+    width: 650px;
+    font-size: 25px;
+    margin-left: 250px;
+    color:yellow;
+    margin-bottom: 150px;
+    margin-top: -15
+    0px;
+}
+#b{
+    justify-content: space-between;
+    padding: 25px;
+    margin-left: 300px;
+    font-size: 25px;
+}
+h1{
+    display: inline-flex;
+}
+#i{
+    margin-left: 100px;
+    width: 250px;
+    display: inline-block;
+}
+p::selection{
+    background-color: whitesmoke;
+    color: black;
+
+}
+h1::after{
+    content: "😄";
+}
+button{
+    size:"10px";
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // let a=10
+        // var b=200
+        // const c=300
+        // console.log(a,b,c);
+        // function test(){
+        //     console.log(b);
+        //     console.log(this.b);
+        //     let x=100
+        //     console.log(x);
+        // }
+        // test()
+
+        // function gp()
+        // {
+        //     let x=100
+        //     let y=200
+        //     var e=500
+        //     console.log(x);
+        //     function p(){
+        //         let z=300
+        //         console.log(y);
+        //         function c()
+        //         {
+        //             let p=100
+        //             console.log(p);
+        //             console.log(z);
+        //             console.log(y);
+        //         }
+        //         return c
+        //     }
+        //     return p
+        // }
+        // gp()()()
+
+
+        function gp()
+        {
+            let x=100
+            let z=200
+            console.log(x);
+
+            function p()
+            {
+                let r=500
+                console.log(z);
+
+                function c()
+                {
+                    let A=150
+                    console.log(A);
+                    console.log(z);
+                    console.log(r);
+                }
+                return c
+            }
+            return p
+        }
+        gp()()()
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: blanchedalmond;
+            color:black;
+        }
+        h1{
+            font-size: 10rem;
+            /* content: "html"; */
+            box-shadow: 10px 10px 5px black;
+        }
+        span::before{
+            content: "html";
+            animation: text 5s linear infinite;
+        }
+        @keyframes text {
+            0%{
+                content: "CSS";
+                color: aqua;
+            }
+            25%{
+                content: "JS";
+                color: blue;
+            }
+            50%{
+                content: "React js";
+                color: yellow;
+            }
+            75%{
+                content: "Node js";
+                color: yellowgreen;
+            }
+            100%{
+                content: "Vus js";
+                color: turquoise;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>I Love <span></span></h1>
+</body>
+</html>

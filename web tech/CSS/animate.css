@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+#main{
+    width: 100%;
+    height: 250px;
+    background-color: skyblue;
+}
+#road{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.white{
+    background-color: white;
+    width: 45px;
+    height: 15px;
+}
+#img1{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    animation-name: bike1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#img2{
+    position: absolute;
+    top: 65px;
+    right: 585px;
+    animation-name: bike2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#car1{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    animation-name: car1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#car2{
+    position: absolute;
+    left: 515px;
+    bottom: 15px;
+    animation-name: car2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#aero{
+    animation-name: aeroplane;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes aeroplane  {
+    0%{
+        position: absolute;
+        top: 90px;
+        left:1%;
+    }
+    25%{        
+        position: absolute;
+        bottom: 45px;
+        left:25%;
+    }
+    50%{
+        position: absolute;
+        top: 30px;
+        left:50%;
+    }
+    75%{        
+        position: absolute;
+        top: 0px;
+        left:75%;}
+    100%{
+        position: absolute;
+        top: 0px;
+        left:100%;
+    }
+}
+@keyframes bike1 {
+    0%{
+        position: absolute;
+        top: 0;
+        left:1%;
+    }
+    25%{        
+        position: absolute;
+        bottom: 0;
+        left:25%;
+    }
+    50%{
+        position: absolute;
+        top: 0;
+        left:50%;
+    }
+    75%{        
+        position: absolute;
+        top: 0px;
+        left:75%;}
+    100%{
+        position: absolute;
+        top: 0px;
+        left:100%;
+    }
+    
+}

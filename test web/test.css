@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 25px;
+    margin: 150px 0 0 550px;
+    width: 300px;
+    height: 350px;
+}
+h1{
+    font-size: 30px;
+    color:black;
+    padding: 25px;
+    padding-left: 105px;
+}
+#profile{
+    margin-left: 75px;
+    width: 150px;
+    height: 150px;
+    background-image:url("../web tech/html/car") ;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    border-radius: 50%;
+}
+#call{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 75px;
+    border-radius: 75px;
+}

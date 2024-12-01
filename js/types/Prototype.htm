@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        
+        let num={
+            city:"dharwad",
+            pincode:580025
+        }
+        let num1={
+            city:"chickmagalur",
+            state:"Karanataka"
+        }
+        let num2={
+            city:"hassan",
+            name:"basya"
+        }
+        let num3={
+            city:"bang",
+            code:4560056
+        }
+        num2.__proto__=num3
+        num1.__proto__=num2
+        num.__proto__=num1
+        console.log(num.state);
+        console.log(num1.name);
+        console.log(num.name);
+        console.log(num.code);
+        
+        
+    </script>
+</body>
+</html>
